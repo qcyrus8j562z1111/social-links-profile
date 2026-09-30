@@ -10,7 +10,7 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
-/* Card Container */
+/*Profile Card Container */
 .card {
     background-color:  hsl(0, 0%, 12%);
     padding: 2rem;
@@ -24,11 +24,32 @@ body {
     text-align: center;
 }
 
-/* avatar */
+/* Avatar Image */
 .avatar {
     width: 90px;
     height: 90px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 0.2rem;
+}
+
+/* Name Heading */
+.name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Location Text */
+.location {
+    color:  hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Bio / Description  */
+.bio {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0;
 }
