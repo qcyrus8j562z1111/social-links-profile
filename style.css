@@ -10,6 +10,14 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
+/* Page Wrapper */
+.wrapper {
+    display: flex;
+    flex-direction: column;             /* Stacks card and footer vertically */
+    align-items: center;                /* Centers everything horizontally */
+    gap: 2rem;                          /* Space between card and attribution */
+}
+
 /*Profile Card Container */
 .card {
     background-color:  hsl(0, 0%, 12%);
@@ -84,4 +92,11 @@ body {
     outline-offset: 3px;
 }
 
-/* Spacing & Visual Refinement */
+/* Footer Attribution */
+.attribution { 
+    font-size: 0.6875rem; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
