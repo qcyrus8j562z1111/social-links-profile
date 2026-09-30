@@ -1,4 +1,4 @@
-<img width="467" height="612" alt="Screenshot 2026-09-30 092323" src="https://github.com/user-attachments/assets/be8c8b75-c827-489c-9dde-4955baba2956" />
+
 # Frontend Mentor - Social Links Profile Solution
 
 This is my solution to the **Social Links Profile** challenge on Frontend Mentor.  
@@ -8,7 +8,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## 📸 Screenshot
 
-![Screenshot of my Social Links Profile](./assets/images/screenshot.jpg)
+<img width="467" height="612" alt="Screenshot 2026-09-30 092323" src="https://github.com/user-attachments/assets/be8c8b75-c827-489c-9dde-4955baba2956" />
 
 ---
 
