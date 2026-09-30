@@ -53,3 +53,28 @@ body {
     font-weight: 400;
     margin: 0;
 }
+
+/* Social Link Buttons */
+.links a {
+    display: block;
+    width: 100%;
+    background-color:  hsl(0, 0%, 20%);
+    color:  hsl(0, 0%, 100%);
+    padding: 0.75rem; 
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Hover State */
+.links a:hover {
+    background-color:  hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%); 
+}
+
+/* Focus State (Keyboard Navigation) */
+.links a:focus-visible {
+    outline: 2px solid hsl(75, 94%, 57%);
+    outline-offset: 3px;
+}
