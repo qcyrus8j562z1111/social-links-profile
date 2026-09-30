@@ -8,7 +8,8 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## 📸 Screenshot
 
-<img width="467" height="612" alt="Screenshot 2026-09-30 092323" src="https://github.com/user-attachments/assets/be8c8b75-c827-489c-9dde-4955baba2956" />
+<img width="467" height="612" alt="Screenshot 2026-09-30 092323" src="https://github.com/user-attachments/assets/7adfce36-f1d3-4433-b720-1241a3382f59" />
+
 
 ---
 
