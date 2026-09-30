@@ -1,7 +1,12 @@
-/*  Font Import  */
+/* === Font Import ===
+   Imports Inter font family with required weights.
+*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-/* Global Layout */
+
+/* === Global Layout ===
+   Sets up the entire page with centered content.
+*/
 body {
     margin: 0;
     min-height: 100vh;
@@ -13,17 +18,23 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
-/* Page Wrapper */
+
+/* === Page Wrapper ===
+   Centers both the card and the attribution together.
+*/
 .wrapper {
     display: flex;
-    flex-direction: column;             /* Stacks card and footer vertically */
-    align-items: center;                /* Centers everything horizontally */
-    gap: 2rem;                          /* Space between card and attribution */
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 
-/*Profile Card Container */
+
+/* === Profile Card Container ===
+   Main card holding avatar, name, location, bio, and links.
+*/
 .card {
-    background-color:  hsl(0, 0%, 12%);
+    background-color: hsl(0, 0%, 12%);
     padding: 2.5rem;
     border-radius: 12px;
     max-width: 350px;
@@ -35,7 +46,10 @@ body {
     text-align: center;
 }
 
-/* Avatar Image */
+
+/* === Avatar Image ===
+   Circular profile photo.
+*/
 .avatar {
     width: 90px;
     height: 90px;
@@ -44,7 +58,10 @@ body {
     margin-bottom: 0.2rem;
 }
 
-/* Name Heading */
+
+/* === Name Heading ===
+   Bold, prominent user name.
+*/
 .name {
     font-size: 1.5rem;
     font-weight: 700;
@@ -52,15 +69,21 @@ body {
     line-height: 1.2;
 }
 
-/* Location Text */
+
+/* === Location Text ===
+   Green accent location text.
+*/
 .location {
-    color:  hsl(75, 94%, 57%);
+    color: hsl(75, 94%, 57%);
     font-weight: 600;
     margin: 0;
     margin-top: -0.4rem;
 }
 
-/* Bio / Description  */
+
+/* === Bio / Description ===
+   Short descriptive text under the location.
+*/
 .bio {
     font-size: 0.875rem;
     font-weight: 400;
@@ -69,37 +92,44 @@ body {
     max-width: 260px;
 }
 
-/* Social Link Buttons */
+
+/* === Social Link Buttons ===
+   Interactive links styled as full-width buttons.
+*/
 .links a {
     display: block;
     width: 100%;
-    background-color:  hsl(0, 0%, 20%);
-    color:  hsl(0, 0%, 100%);
-    padding: 0.75rem; 
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 0.75rem;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
-    transition: background-color 0.2s ease, color 0.2s ease;
     margin-bottom: 0.4rem;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-/* Hover State */
+
+/* === Hover State === */
 .links a:hover {
-    background-color:  hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 8%); 
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
 }
 
-/* Focus State (Keyboard Navigation) */
+
+/* === Focus State (Keyboard Navigation) === */
 .links a:focus-visible {
     outline: 2px solid hsl(75, 94%, 57%);
     outline-offset: 3px;
 }
 
-/* Footer Attribution */
-.attribution { 
-    font-size: 0.6875rem; text-align: center; 
+
+/* === Footer Attribution === */
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
