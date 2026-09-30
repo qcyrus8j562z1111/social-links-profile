@@ -13,14 +13,14 @@ body {
 /*Profile Card Container */
 .card {
     background-color:  hsl(0, 0%, 12%);
-    padding: 2rem;
+    padding: 2.5rem;
     border-radius: 12px;
     max-width: 350px;
     width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.2rem;
+    gap: 1.4rem;
     text-align: center;
 }
 
@@ -38,6 +38,7 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     margin: 0;
+    line-height: 1.2;
 }
 
 /* Location Text */
@@ -45,6 +46,7 @@ body {
     color:  hsl(75, 94%, 57%);
     font-weight: 600;
     margin: 0;
+    margin-top: -0.4rem;
 }
 
 /* Bio / Description  */
@@ -52,6 +54,8 @@ body {
     font-size: 0.875rem;
     font-weight: 400;
     margin: 0;
+    line-height: 1.4;
+    max-width: 260px;
 }
 
 /* Social Link Buttons */
@@ -65,6 +69,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     transition: background-color 0.2s ease, color 0.2s ease;
+    margin-bottom: 0.4rem;
 }
 
 /* Hover State */
@@ -78,3 +83,5 @@ body {
     outline: 2px solid hsl(75, 94%, 57%);
     outline-offset: 3px;
 }
+
+/* Spacing & Visual Refinement */
